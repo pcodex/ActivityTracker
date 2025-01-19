@@ -2,7 +2,7 @@ const express = require('express')
 
 const app = express()
 
-const portnum = process.env.PORT||2500
+const portnum = process.env.PORT||2000
 
 const exphandlebars = require('express-handlebars').create({defaultLayout:'main'})
 app.engine('handlebars', exphandlebars.engine)
