@@ -1,11 +1,17 @@
-<h1>
-    Welcome to the Activity Tracker for {{{author}}}
-</h1>
-
 <h2>
-    Enter an activity
+    Enter  activity
 </h2>
 
-<textarea>
-    <p>Enter a description</p>
-</textarea>
+<form action="/submitActivity" method="POST">
+
+<div>
+    <label for="activitydesc">Activity</label>
+    <input type="text" id="activitydesc" name="actdesc">
+</div>
+
+
+<div>
+    <button type="submit">Submit</button>
+</div>
+
+</form>
