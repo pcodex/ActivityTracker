@@ -22,7 +22,6 @@ app.get('/', (req,res) => {
 })
 
 app.post('/submitActivity', handlers.saveActivity)
-
 app.get('/activitySubmitted', handlers.endActivity)
 
 app.listen(portnum, () => {
